@@ -1,0 +1,24 @@
+# Base class
+class Player:
+    def play(self):
+        print("The player is playing cricket.")
+
+# Derived class 1
+class Batsman(Player):
+    def play(self):
+        print("The batsman is batting.")
+
+# Derived class 2
+class Bowler(Player):
+    def play(self):
+        print("The bowler is bowling.")
+
+# Create objects of the derived classes
+batsman = Batsman()
+bowler = Bowler()
+
+# Call the play() method for each object
+batsman.play()
+bowler.play()
+The batsman is batting.
+The bowler is bowling.
